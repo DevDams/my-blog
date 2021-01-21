@@ -1,0 +1,16 @@
+{
+  getObjects(
+    bucket_slug: "hello-world-testing"
+    input: {
+      limit: 20
+      read_key: "GIvjCxA9vC7qD3PLIC8GzrdjeVvRCslZZUiHwqpu1JQFpfsul1"
+      type: "posts"
+    }
+  ) {
+    objects {
+      title
+      metadata
+      slug
+    }
+  }
+}

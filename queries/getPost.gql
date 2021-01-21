@@ -1,0 +1,10 @@
+query getObject($slug: String!){
+  getObject(bucket_slug: "hello-world-testing", input: {
+    slug: $slug,
+    read_key: "GIvjCxA9vC7qD3PLIC8GzrdjeVvRCslZZUiHwqpu1JQFpfsul1"
+  }) {
+    title
+    content
+    metadata
+  }
+}
