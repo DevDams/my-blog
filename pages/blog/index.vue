@@ -1,11 +1,17 @@
 <template>
   <div>
     Blog Page
+    <PostFeed />
   </div>
 </template>
 
 <script>
-export default {}
+import PostFeed from '../../components/PostFeed'
+export default {
+  components: {
+    PostFeed
+  }
+}
 </script>
 
 <style scoped></style>
